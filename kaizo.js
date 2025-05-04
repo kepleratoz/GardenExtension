@@ -1,9 +1,9 @@
 Game.registerMod("simple cookie click", {
     init: function () {
-      Game.Notify(`Simple Cookie Click Loaded!`, "", [16, 5]);
-      this.name = "Simple Cookie Click Mod";
-      this.version = "1.3";
-      this.GameVersion = "2.042";
+      Game.Notify(`Garden Extension Loaded!`, "", [16, 5]);
+      this.name = "Garden Extension";
+      this.version = "1.0";
+      this.GameVersion = "2.052";
   
       this.config = this.defaultConfig();
   
