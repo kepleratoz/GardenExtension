@@ -42,7 +42,8 @@ Game.registerMod("customSpellMod", {
 		};
 
 		// Register the spell in the Grimoire
-		minigame.spells.push(customSpell);
+		minigame.spells["goldenBlessing"] = customSpell;
+
 
 		// Rebuild spell list in UI
 		minigame.buildSpellList();
